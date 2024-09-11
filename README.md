@@ -7,5 +7,8 @@
 
 ## 2: Installation
 
-Simply download the plugin.js file and drag it into your plugins folder for BetterDiscord. Enable it and go to any channel to see the exact date
+Simply download and install BetterDiscord from https://betterdiscord.app 
+
+
+Download the plugin.js file and drag it into your plugins folder for BetterDiscord. Enable it and go to any channel to see the exact date for every message
 
