@@ -14,7 +14,7 @@ module.exports = meta => {
             Object.assign(mySettings, BdApi.Data.load(meta.name, "settings"));
 
             setInterval(function () {
-                let allMessages = document.querySelectorAll(".scrollerInner_e2e187 li");
+                let allMessages = document.querySelectorAll(".scrollerInner__36d07 li");
 
                 allMessages.forEach(message => {
                   
@@ -32,7 +32,7 @@ module.exports = meta => {
                             String(date.getMinutes()).padStart(2, '0') + ':' +
                             String(date.getSeconds()).padStart(2, '0');
 
-                        let separatorElement = timeElement.querySelector('i.separator_f9f2ca');
+                        let separatorElement = timeElement.querySelector('separator_c19a55');
 
                         timeElement.textContent = formattedDate;
 
